@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection_title": "Featured Colection",
+        "featured_collection": "indoor-collection",
+        "show_limit_product": 4,
+        "textColor": "#000000"
+      }
+    },
+    "quick_view_modal_api_36tHXA": {
+      "type": "quick-view-modal-API",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "featured_collection",
+    "quick_view_modal_api_36tHXA"
+  ]
+}

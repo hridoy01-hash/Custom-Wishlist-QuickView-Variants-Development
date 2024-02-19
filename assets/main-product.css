@@ -1,0 +1,39 @@
+
+  body {
+    font-family: 'Poppins';
+  }
+
+  /* Hide the default radio button */
+  .product_variant_wrapper input[type='radio'] {
+    display: none;
+  }
+
+  /* Style the custom button-like radio button */
+  .custom-radio-button {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    background-color: #fff;
+    color: #616161;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #ebebeb;
+    border-radius: 40px;
+  }
+
+  /* Style for when the radio button is checked */
+  .product_variant_wrapper input[type='radio']:checked + .custom-radio-button {
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid black;
+  }
+
+  .product_variant_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .active_thumbs_img {
+    border: 2px solid black;
+  }
